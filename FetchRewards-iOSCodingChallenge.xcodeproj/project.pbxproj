@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		8A620C1B28DD54C8008DCD1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A620C1A28DD54C8008DCD1E /* AppDelegate.swift */; };
 		8A620C1D28DD54C8008DCD1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A620C1C28DD54C8008DCD1E /* SceneDelegate.swift */; };
-		8A620C1F28DD54C8008DCD1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A620C1E28DD54C8008DCD1E /* ViewController.swift */; };
 		8A620C2228DD54C8008DCD1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A620C2028DD54C8008DCD1E /* Main.storyboard */; };
 		8A620C2428DD54CF008DCD1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A620C2328DD54CF008DCD1E /* Assets.xcassets */; };
 		8A620C2728DD54CF008DCD1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A620C2528DD54CF008DCD1E /* LaunchScreen.storyboard */; };
@@ -19,7 +18,6 @@
 		8A620C1728DD54C8008DCD1E /* FetchRewards-iOSCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FetchRewards-iOSCodingChallenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A620C1A28DD54C8008DCD1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A620C1C28DD54C8008DCD1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8A620C1E28DD54C8008DCD1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8A620C2128DD54C8008DCD1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A620C2328DD54CF008DCD1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A620C2628DD54CF008DCD1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +54,54 @@
 		8A620C1928DD54C8008DCD1E /* FetchRewards-iOSCodingChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				8A620C1A28DD54C8008DCD1E /* AppDelegate.swift */,
-				8A620C1C28DD54C8008DCD1E /* SceneDelegate.swift */,
-				8A620C1E28DD54C8008DCD1E /* ViewController.swift */,
-				8A620C2028DD54C8008DCD1E /* Main.storyboard */,
+				8A620C3128E62F0C008DCD1E /* Model View Controllers */,
+				8A620C3028E62F01008DCD1E /* Model Controllers */,
+				8A620C2F28E62EF6008DCD1E /* Model */,
+				8A620C2E28E62EEB008DCD1E /* Resources */,
 				8A620C2328DD54CF008DCD1E /* Assets.xcassets */,
-				8A620C2528DD54CF008DCD1E /* LaunchScreen.storyboard */,
 				8A620C2828DD54CF008DCD1E /* Info.plist */,
 			);
 			path = "FetchRewards-iOSCodingChallenge";
+			sourceTree = "<group>";
+		};
+		8A620C2E28E62EEB008DCD1E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8A620C1C28DD54C8008DCD1E /* SceneDelegate.swift */,
+				8A620C1A28DD54C8008DCD1E /* AppDelegate.swift */,
+				8A620C2528DD54CF008DCD1E /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8A620C2F28E62EF6008DCD1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A620C3028E62F01008DCD1E /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		8A620C3128E62F0C008DCD1E /* Model View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A620C3228E62F48008DCD1E /* Views */,
+			);
+			path = "Model View Controllers";
+			sourceTree = "<group>";
+		};
+		8A620C3228E62F48008DCD1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8A620C2028DD54C8008DCD1E /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +175,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A620C1F28DD54C8008DCD1E /* ViewController.swift in Sources */,
 				8A620C1B28DD54C8008DCD1E /* AppDelegate.swift in Sources */,
 				8A620C1D28DD54C8008DCD1E /* SceneDelegate.swift in Sources */,
 			);
